@@ -1,22 +1,70 @@
 #top_bar {
-    width: 100%;
+    width: 70%;
     height: 25px;
     box-sizing: border-box;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
     float: left;
-    background-color: antiquewhite;
 }
 
 #left_panel {
     float:left; 
-    width:100px;
-    height: 200px;
+    width: 100%;
+    height: 550px;
+}
+
+#left_panel img { 
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+    object-fit: contain;
+}
+
+#left_panel_cv p {
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+}
+
+#left_panel_publications p {
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+}
+
+#left_panel_anotheritem p {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 100%;
+    float: left;
+}
+
+#left_panel_anotheritem img {
+    float: left;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+#left_panel_cv img {
+    float: left;
+    width: 50%;
+    object-fit: contain;
+}
+
+#left_panel_cv img {
+    float: right;
+    width: 50%;
+    object-fit: contain;
+}
+
+#right_panel {
+    float: right;
+    width: 26%;
+    height: 25px;
 }
 
 .divs {
-    background-color: yellow;
-    border-style: solid;
     margin: 5px 5px 5px 5px;
     float: left;
 }
@@ -32,9 +80,19 @@
     margin-right: 20px;
 }
 
+#top_name a {
+    color: inherit;
+    text-decoration: inherit;
+    opacity: 1;
+}
+
+#top_name a:hover {
+    opacity: .5;
+}
+
 #div-container {
-    width: 50%;
-    height: 500px;
+    width: 75%;
+    height: 880px;
     margin: 0 auto;
     padding-right: 10px;
     background-color: antiquewhite;
