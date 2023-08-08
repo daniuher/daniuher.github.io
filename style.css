@@ -1,8 +1,11 @@
 #top_bar {
     width: 100%;
-    height: 30px;
+    height: 25px;
     box-sizing: border-box;
-    padding: 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    background-color: antiquewhite;
 }
 
 #left_panel {
@@ -25,8 +28,8 @@
     font-variant: normal;
     font-weight: bold;
     float: left;
-    padding-left: 10px;
-    margin-right: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
 }
 
 #div-container {
@@ -34,7 +37,7 @@
     height: 500px;
     margin: 0 auto;
     padding-right: 10px;
-    background-color: blueviolet;
+    background-color: antiquewhite;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 13px;
     font-style: normal;
@@ -47,9 +50,14 @@
     max-height: 100%;
     margin-left: 5px;
     float: left;
+    opacity: 1;
 }
 
-#div_menu {
+.top_bar_icons:hover {
+    opacity: .5
+}
+
+#menu {
     float: left;
     padding-left: 10px;
 }
