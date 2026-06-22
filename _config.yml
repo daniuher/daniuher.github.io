@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Daniel Uher / Dani's internet corner"
+title                    : "Daniel Uher"
 title_separator          : "-"
 name                     : &name "Daniel Uher"
 description              : &description "Dani's internet corner"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  name             : "Dani"
+  pronouns         : "he/him"  
+  bio              : "Neuroimaging, MRI, tech, and other adventures"
   location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  employer         : "Department Biomedical Magnetic Resonance, Otto-von-Guericke-Universität, Magdeburg, Germany"
+  uri              : "https://www.bmmr.ovgu.de/"
+  email            : # e-mail address
 
   # Academic websites
   academia         : # URL
